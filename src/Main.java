@@ -25,8 +25,8 @@ public class Main {
         char choice;
 
         do {
-            System.out.println("\n(A)dd \n(D)elete \n(E)mail Search \n(P)rint List \n(S)earch \n(Q)uit");
-            System.out.print("Enter your choice: ");
+            System.out.println("************\n(A)dd \n(D)elete \n(E)mail Search \n(P)rint List \n(S)earch \n(Q)uit");
+            System.out.print("************\nEnter your choice: ");
             choice = sc.next().charAt(0);
             sc.nextLine(); // consume the newline character
 
